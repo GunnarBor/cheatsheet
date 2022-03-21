@@ -1,0 +1,68 @@
+html {
+    background-color:lightgrey
+}
+.subjects {
+    display: inline-block;
+    font-family: helvetica;
+    font-size: 15px;
+    margin-right: 40px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid;
+    margin-top: 20px;
+    background-color:ivory
+}
+#tablesheader, #footerheader {
+    margin-left: 20px;
+
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+table, tr, td, th{
+    border: 2px solid;
+    border-collapse: collapse;
+    height: 40px;
+    font-family: helvetica;
+    text-align: center;
+}
+#table1 {
+    margin-top: 70px
+}
+#table2 {
+    margin-top: 35px;
+}
+#table3 {
+    margin-top: 60px;
+}
+#css {
+    position: fixed;
+    left: 175px;
+    top: 797px;
+    font-family: helvetica;
+    font-size: 15px;
+    font-style: italic;
+}
+#html {
+    position: fixed;
+    top: 213px;
+    left: 175px;
+    font-family: helvetica;
+    font-size: 15px;
+    font-style: italic;
+}
+footer {
+    font-family: helvetica;
+    font-weight: bold;
+    position: fixed;
+    top: 1225px;
+    left: 45%;
+}
+th {
+    background-color:indianred;
+}
+
+
+
