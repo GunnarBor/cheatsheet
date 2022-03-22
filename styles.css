@@ -38,20 +38,23 @@ table, tr, td, th{
     margin-top: 60px;
 }
 #css {
-    position: fixed;
-    left: 175px;
-    top: 797px;
+    position: relative;
+    left: 13%;
+    top: 50%;
     font-family: helvetica;
     font-size: 15px;
     font-style: italic;
+    bottom: 10px;
+    resize: both;
 }
 #html {
-    position: fixed;
-    top: 213px;
-    left: 175px;
+    position: relative;
     font-family: helvetica;
     font-size: 15px;
     font-style: italic;
+    left: 13%;
+    bottom: 920px;
+    resize: both;
 }
 footer {
     font-family: helvetica;
@@ -59,6 +62,7 @@ footer {
     position: fixed;
     top: 1225px;
     left: 45%;
+
 }
 th {
     background-color:indianred;
